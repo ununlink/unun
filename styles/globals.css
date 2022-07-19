@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.conectar {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
