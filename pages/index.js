@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header';
 import MyNFT from '../components/MyNFT'
+import Link from 'next/link';
+
 
 
 
@@ -24,7 +26,12 @@ export default function Home() {
             </iframe>
           </div>
         </div> */}
-        <MyNFT />
+        {/* <MyNFT /> */}
+        <Link href="/mint">
+          <a>
+            mint
+          </a>  
+        </Link>
       </main>
     </div>
   )

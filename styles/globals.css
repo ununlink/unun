@@ -20,20 +20,3 @@ a {
   top: 0.5em;
   right: 0.5em;
 }
-/* 
-.nft-embed-wrapper {
-  position: relative; width:100%; height: calc(274px + 0px);
-}
-
-.nft-embed-wrapper > iframe {
-  width: 100%!important;
-  height:100%!important;
-  border: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.embed-cont {
-  width: 100%; max-width: 750px; margin: 0 auto; position: relative;
-} */
