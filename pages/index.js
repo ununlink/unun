@@ -29,7 +29,7 @@ export default function Home() {
         {/* <MyNFT /> */}
         <Link href="/mint">
           <a>
-            mint
+            mint!
           </a>  
         </Link>
       </main>
