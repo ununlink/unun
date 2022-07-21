@@ -4,7 +4,8 @@ import { ConnectButton } from '@rainbow-me/rainbowkit';
 import Header from '../components/Header';
 import Link from 'next/link';
 import { useAccount, useContract, useProvider, useContractWrite, useWaitForTransaction, useContractRead, etherscanBlockExplorers } from 'wagmi';
-import * as ERC721_abi from "../ZoraNFTCreatorProxy-Hardhat/node_modules/@zoralabs/nft-drop-contracts/dist/artifacts/ERC721Drop.sol/ERC721Drop.json"
+import * as ERC721_abi from "../node_modules/@zoralabs/nft-drop-contracts/dist/artifacts/ERC721Drop.sol/ERC721Drop.json"
+// import * as ERC721_abi from "../ZoraNFTCreatorProxy-Hardhat/node_modules/@zoralabs/nft-drop-contracts/dist/artifacts/ERC721Drop.sol/ERC721Drop.json"
 // import PostMintDialog from '../components/PostMintDialog';
 import styles from '../styles/Home.module.css'
 
